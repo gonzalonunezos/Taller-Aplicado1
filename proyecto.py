@@ -6959,3 +6959,8 @@ def genera():
                   lista.append(numero)
                   
       return lista
+def comparar(a,b):
+      if a in b:
+            return false
+      else:
+            return true
