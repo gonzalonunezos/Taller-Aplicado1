@@ -4,5 +4,7 @@ def listaAleatorios(n):
       for i in range(6):
           lista[i] = random.randint(1,36)
       return lista
- 
+def listaordenada(lista):
+      listaAleatorios.sort()
+      
 print listaAleatorios()
