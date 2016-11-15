@@ -6964,3 +6964,13 @@ def comparar(a,b):
             return false
       else:
             return true
+def juegosiono():
+      L=genera()
+      if comparar(L,n_sorteos):
+            print "jugar"
+            print L
+      else: 
+            print "No jugar"
+            print L
+            
+        
