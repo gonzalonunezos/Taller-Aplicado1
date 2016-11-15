@@ -6,4 +6,5 @@ def genera():
             numero=random.choice(L)
             if not(numero)in lista:
                   lista.append(numero)
-return lista
+                  
+      return lista
