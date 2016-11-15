@@ -1,8 +1,8 @@
 import random
 def listaAleatorios(n):
       lista = [0]  * n
-      for i in range(n):
-          lista[i] = random.randint()
+      for i in range(6):
+          lista[i] = random.randint(1,36)
       return lista
  
-print listaAleatorios(37)
+print listaAleatorios()
